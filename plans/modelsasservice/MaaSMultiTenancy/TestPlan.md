@@ -1,3 +1,14 @@
+---
+feature: maas_multi_tenancy
+source_key: RHAIRFE-1487
+version: 1.1.0
+status: Draft
+author: RHOAI QE
+additional_docs:
+  - RHAISTRAT-1741
+  - RHOAIENG-62570
+last_updated: '2026-05-18'
+---
 # MaaS Multi-Tenancy Test Plan
 
 ## Document Information
@@ -187,8 +198,6 @@ This plan focuses on the engineering stories delivered under Epic [RHOAIENG-6257
 
 ## 5. Test Cases
 
-> **Note**: Test cases have not been generated yet. To be filled later in the process.
-
 **Test Cases Directory**: [test_cases/](test_cases/)
 **Complete Test Case Index**: [test_cases/INDEX.md](test_cases/INDEX.md)
 
@@ -198,15 +207,15 @@ Test cases are organized by category and stored as individual markdown files in 
 
 | Category | Test Cases | Priority Distribution |
 |----------|------------|----------------------|
-| Tenant Provisioning & CR Lifecycle | TC-PROV-001 to TBD | TBD |
-| Controller Reconciliation | TC-CTRL-001 to TBD | TBD |
-| AuthPolicy Propagation | TC-POLICY-001 to TBD | TBD |
-| API Key Management | TC-APIKEY-001 to TBD | TBD |
-| Internal/Gateway Contract | TC-CONTRACT-001 to TBD | TBD |
-| Admission Webhook | TC-WEBHOOK-001 to TBD | TBD |
-| Tenant Isolation (Negative) | TC-ISO-001 to TBD | TBD |
-| Tenant Cleanup | TC-CLEANUP-001 to TBD | TBD |
-| End-to-End Scenarios | TC-E2E-001 to TBD | TBD |
+| Tenant Provisioning & CR Lifecycle | TC-PROV-001 to TC-PROV-004 | P0: 3, P1: 1 |
+| Controller Reconciliation | TC-CTRL-001 to TC-CTRL-003 | P0: 1, P1: 2 |
+| AuthPolicy Propagation | TC-POLICY-001 to TC-POLICY-003 | P1: 3 |
+| API Key Management | TC-APIKEY-001 to TC-APIKEY-004 | P0: 3, P1: 1 |
+| Internal/Gateway Contract | TC-CONTRACT-001 to TC-CONTRACT-002 | P1: 2 |
+| Admission Webhook | TC-WEBHOOK-001 to TC-WEBHOOK-003 | P1: 3 |
+| Tenant Isolation (Negative) | TC-ISO-001 to TC-ISO-004 | P0: 4 |
+| Tenant Cleanup | TC-CLEANUP-001 to TC-CLEANUP-002 | P0: 2 |
+| End-to-End Scenarios | TC-E2E-001 to TC-E2E-002 | P0: 2 |
 
 ### 5.2 Test Case Naming Convention
 
