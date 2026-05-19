@@ -7,6 +7,8 @@ Multi-tenancy support for MaaS enabling platform admins to provision isolated te
 ### Main Documents
 
 - [TestPlan.md](TestPlan.md) — Complete test strategy, approach, and execution plan
+- [TestPlanGaps.md](TestPlanGaps.md) — Open gaps and blocked items (9 open)
+- [TestPlanReview.md](TestPlanReview.md) — Quality review rubric assessment (9/10 — Ready)
 
 ### Test Cases
 
